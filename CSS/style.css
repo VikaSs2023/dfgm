@@ -1,0 +1,66 @@
+nav{
+    display:flex;
+    justify-content: space-evenly
+}
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color:#BD613C;
+}
+header{
+    background-color: #F1BAA1;
+    padding: 20px;
+}
+a:hover{ color:#BCAF4D}
+h1{
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    margin-top: 0;margin-left: 0;margin-right: 0;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+p{
+    color: #BD613C;
+    font-size: 15px;
+}
+
+section{display: flex;
+    margin-bottom: 50px;
+justify-content: space-around;}
+
+article{text-align: center;
+width: 300px;
+font-size: 20px;}
+
+button{background-color:black ;
+color: aliceblue;
+font-size: 20px;
+padding: 15px;}
+
+footer{
+    background-color: #BD613C;
+    padding: 20px;
+}
+footer p{color:white;}
+
+body{
+    text-decoration: none;
+    font-size: 25px;
+}
+.tel::before{content: url(https://i.postimg.cc/t4Z9qXTv/free-icon-font-phone-call-5070407.png);}
+.tel{
+    font-size: 40px;
+}
+.inst::before{content: url(https://i.postimg.cc/YCKtC5Wp/free-icon-font-instagram-6422200.png);}
+.inst{
+    font-size: 40px;
+}
+.telegram::before{content: url(https://i.postimg.cc/cJfgJ7Hz/free-icon-font-telegram-6422206.png);}
+.telegram{
+    font-size: 40px;
+}
